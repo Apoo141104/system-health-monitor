@@ -1,0 +1,7 @@
+2025-08-05 09:01:58,453 - SystemHealthMonitor - INFO - Logging system initialized
+2025-08-05 09:01:58,478 - SystemHealthMonitor - INFO - Environment validation passed
+2025-08-05 09:01:58,512 - SystemHealthMonitor - INFO - Starting system health monitor daemon
+2025-08-05 09:02:20,706 - SystemHealthMonitor - INFO - System state changed - preparing report
+2025-08-05 09:02:20,812 - SystemHealthMonitor - ERROR - Unexpected error in daemon loop: Memory usage exceeded limit: 50.14MB > 50.0MB
+2025-08-05 09:02:28,191 - SystemHealthMonitor - INFO - Received shutdown signal 15
+2025-08-05 09:03:20,817 - SystemHealthMonitor - INFO - System health monitor daemon stopped
