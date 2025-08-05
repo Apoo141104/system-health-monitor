@@ -1,0 +1,7 @@
+psutil>=5.9.0
+requests>=2.31.0
+schedule>=1.2.1
+platformdirs>=4.2.0
+distro; sys_platform == "linux"
+pyobjc; sys_platform == "darwin"
+pywin32; sys_platform == "win32"
