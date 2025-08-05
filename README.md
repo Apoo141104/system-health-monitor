@@ -100,3 +100,17 @@ Platform: Darwin arm64
 Disk Encryption: {'status': 'encrypted', 'method': 'FileVault', 'details': {}, 'mounted_volumes': {'/': {'device': '/dev/disk3s1s1', 'mountpoint': '/', 'fstype': 'apfs', 'encrypted': 'unknown'}, '/dev': {'device': 'devfs', 'mountpoint': '/dev', 'fstype': 'devfs', 'encrypted': 'unknown'}, '/System/Volumes/VM': {'device': '/dev/disk3s6', 'mountpoint': '/System/Volumes/VM', 'fstype': 'apfs', 'encrypted': 'unknown'}, '/System/Volumes/Preboot': {'device': '/dev/disk3s2', 'mountpoint': '/System/Volumes/Preboot', 'fstype': 'apfs', 'encrypted': 'unknown'}, '/System/Volumes/Update': {'device': '/dev/disk3s4', 'mountpoint': '/System/Volumes/Update', 'fstype': 'apfs', 'encrypted': 'unknown'}, '/System/Volumes/xarts': {'device': '/dev/disk1s2', 'mountpoint': '/System/Volumes/xarts', 'fstype': 'apfs', 'encrypted': 'unknown'}, '/System/Volumes/iSCPreboot': {'device': '/dev/disk1s1', 'mountpoint': '/System/Volumes/iSCPreboot', 'fstype': 'apfs', 'encrypted': 'unknown'}, '/System/Volumes/Hardware': {'device': '/dev/disk1s3', 'mountpoint': '/System/Volumes/Hardware', 'fstype': 'apfs', 'encrypted': 'unknown'}, '/System/Volumes/Data': {'device': '/dev/disk3s5', 'mountpoint': '/System/Volumes/Data', 'fstype': 'apfs', 'encrypted': 'unknown'}, '/System/Volumes/Data/home': {'device': 'map auto_home', 'mountpoint': '/System/Volumes/Data/home', 'fstype': 'autofs', 'encrypted': 'unknown'}, '/private/var/folders/0t/9zcslybd245347xsx20362700000gn/T/AppTranslocation/751E71AB-E020-4BB5-B15B-9B92E0D026EC': {'device': '/Users/apoorva/Downloads/Visual Studio Code.app', 'mountpoint': '/private/var/folders/0t/9zcslybd245347xsx20362700000gn/T/AppTranslocation/751E71AB-E020-4BB5-B15B-9B92E0D026EC', 'fstype': 'nullfs', 'encrypted': 'unknown'}}}
 
 ```
+## ⚙️ OS Compatibility
+✅ macOS (fully tested)
+⚙️ Windows/Linux (structure in place, implementations pending)
+
+## 🧰 Requirements
+psutil
+requests
+platformdirs
+pyobjc  # macOS only
+
+## Used Mock API for Testing
+Used https://beeceptor.com/ to make a mock API for end point in the code.
+
+
