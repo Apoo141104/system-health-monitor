@@ -45,6 +45,7 @@ kill <PID>
 <img width="877" height="126" alt="image" src="https://github.com/user-attachments/assets/c9b77a93-c565-49a9-a18c-58568ffbc4e1" />
 <img width="877" height="126" alt="image" src="https://github.com/user-attachments/assets/bc12c690-8a77-4fd2-8ccc-5aa214f65fd3" />
 ## Some Testcases
+
 ```bash
 echo "=== TEST 1: Dry Run ==="
 python3 system_monitor.py --dry-run
